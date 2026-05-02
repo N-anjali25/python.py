@@ -1,0 +1,82 @@
+def square():
+    s=int(input("enter side:"))
+    print("Area:",s*s)
+def rect(a,b):    
+    print ("area:",a*b)
+def cir():
+    r=int(input("enter radius:"))
+    return 3.14 * r*r
+def tri(b,h):
+    return 0.5*b*h
+
+while True:
+     print("1.square")
+     print("2.rect")
+     print("3.cir")
+     print("4.tri")
+     print("5.exit")
+     ch=int(input("Enter ur choice:"))
+     if ch==1:
+         square()
+     elif ch==2:
+         l=int(input("enter length:"))
+         b=int(input("enter breadth:"))
+         rect(l,b)
+     elif ch==3:
+         x=cir()
+         print("Area : " ,x)
+     elif ch==4:
+         b=int(input("ENter base:"))
+         h=int(input("enter height:"))
+         y=tri(b,h)
+         print("Area",y)
+     else:
+         print("exit")
+  Output:
+1.square
+2.rect
+3.cir
+4.tri
+5.exit
+Enter ur choice: 1
+enter side: 2
+Area: 4
+1.square
+2.rect
+3.cir
+4.tri
+5.exit
+Enter ur choice: 2
+enter length: 3
+enter breadth: 4
+area: 12
+1.square
+2.rect
+3.cir
+4.tri
+5.exit
+Enter ur choice: 3
+enter radius: 5
+Area :  78.5
+1.square
+2.rect
+3.cir
+4.tri
+5.exit
+Enter ur choice: 4
+ENter base: 7
+enter height: 5
+Area 17.5
+1.square
+2.rect
+3.cir
+4.tri
+5.exit
+Enter ur choice: 5
+exit
+1.square
+2.rect
+3.cir
+4.tri
+5.exit
+
