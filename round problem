@@ -1,0 +1,28 @@
+a=int(input("ishitha enter any number:"))
+nums=[]
+while (True):
+    nums.append(a)
+    if a==1:
+        print("Happy number")
+        break
+    elif a in nums:
+        break
+    else:
+        nums.append(a)
+        a=sum([int(i)* int(i) for i in str(a)])
+    if a==1:
+        break
+    elif a in nums:
+        break
+        
+    else:
+        nums.append(a)
+        d=sum([int(i)* int(i) for i in str(a)])
+        nums.append(a)
+if a==1:
+    print("round")
+else:
+    print("not round")
+#output
+ishitha enter any number: 68
+not round
