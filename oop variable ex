@@ -1,0 +1,16 @@
+class abc:
+    num=100
+    def set_dis(self,a,b):
+        self.total=a+b+abc.num
+    def display(self):
+        print("Addition is:",self.total)
+a=abc()
+b=abc()
+a.set_dis(20,30)
+b.set_dis(30,50)
+a.display()
+b.display()
+output
+Addition is: 150
+Addition is: 180
+        
