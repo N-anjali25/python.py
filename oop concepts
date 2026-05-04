@@ -1,0 +1,52 @@
+x="INDIA"
+class ace:
+    def give_details(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d
+    def display(self):
+        print("1.name=",self.name)
+        print("2.mark=",self.tot)
+        print("3.country",x)
+class bvrit:
+    def give_details(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d
+    def display(self):
+        print("1.name=",self.name)
+        print("2.mark=",self.tot)
+        print("3.country",x)
+
+
+
+a=ace()
+a.give_details(20,30,40,"anjali")
+a.display()
+b=bvrit()
+b.give_details(20,30,40,"pavi")
+b.display()
+output
+1.name= anjali
+2.mark= 90
+3.country INDIA
+1.name= pavi
+2.mark= 90
+
+
+
+#oop concept ex
+
+class abc:
+    num=100
+    def set_dis(self,a,b):
+        self.total=a+b+abc.num
+    def display(self):
+        print("Addition is:",self.total)
+a=abc()
+b=abc()
+a.set_dis(20,30)
+b.set_dis(30,50)
+a.display()
+b.display()
+        output:
+Addition is: 150
+Addition is: 180
